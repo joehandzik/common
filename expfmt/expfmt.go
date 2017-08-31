@@ -30,6 +30,7 @@ const (
 	FmtProtoDelim   Format = ProtoFmt + ` encoding=delimited`
 	FmtProtoText    Format = ProtoFmt + ` encoding=text`
 	FmtProtoCompact Format = ProtoFmt + ` encoding=compact-text`
+	FmtJson		Format = `application/json`
 )
 
 const (
